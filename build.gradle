@@ -19,6 +19,7 @@ allprojects {
     group = GROUP
 
     repositories {
+        mavenCentral()
         jcenter()
         maven { url "https://jitpack.io" }
     }
